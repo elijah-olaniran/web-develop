@@ -1,0 +1,52 @@
+*{
+    padding: 15px;
+    margin: auto;
+}
+*{
+    padding: 5px;
+    margin: auto;
+}
+
+body{
+    background-color: #28434A;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: right;
+    position: relative;
+}
+object{
+    padding: 5px;
+    margin: auto;
+    background-color: antiquewhite;
+    fill: beige;
+}
+.heading{
+    text-align: left;
+    font-size: 50px;
+    padding: 5px;
+    margin: 10px;
+
+}
+section{
+    padding: 10px;
+    margin: 5px;
+}
+.desc{
+    color: beige;
+    text-align: left;
+    padding: 5px;
+    margin: auto;
+}
+.links{
+    text-align: end;
+    fill: beige;
+    margin: 5px;
+    padding: 15px;
+}
+
