@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Outstagram</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="www.instagram.com" class="logo"> <i>Outstagram</i></a>
+        <div class="search_box">
+            <input type="search" name="" id="search_box" placeholder="Search">
+        </div>
+        <div class="nav_link">
+            <img width="25px" height="20px" src="./home.png">
+            <img width="25px" height="20px" src="./compass.png">
+            <img width="25px" height="20px" src="./heart.png">
+            <img width="25px" height="20px" src="./message.png">
+            <img width="25px" height="20px" src="./elipsis.png">
+        </div>
+    </div>
+    <div class="page_body">
+        <div class="feeds">
+            <div class="stories">
+                <div class="story">
+                    <div class="story_image"></div>
+                    <div class="story_text">story 1</div>
+                </div>
+                <div class="story">
+                    <div class="story_image"></div>
+                    <div class="story_text">story 2</div>
+                </div>
+                <div class="story">
+                    <div class="story_image"></div>
+                    <div class="story_text">story 3</div>
+                </div>
+                <div class="story">
+                    <div class="story_image"></div>
+                    <div class="story_text">story 4</div>
+                </div>
+                <div class="story">
+                    <div class="story_image"></div>
+                    <div class="story_text">story 5</div>
+                </div>
+            </div>
+
+            <div class="post_container"></div>
+        </div>
+        <div class="suggestions">
+            <div class="profile">
+                <div class="dummy_container">
+                    <img width="25px" height="20px" src="./profile.png">
+                <div class="profile_id">
+                    <div class="username"><b>uswah</b></div>
+                    <div class="profile_name">uswah_sanni</div>
+                </div>
+                </div>
+                <button class="post_button"><b>Switch</b></button>
+            </div>
+        </div>
+    </div>
+    <button class = "floating_create_post">+</button>
+    <div class="add_post_container">
+        <form action="" class="add_form"> 
+            <label for="">username</label>
+            <input type="text" id="post_username"placeholder="username">
+            <label for="post_media" class="post_media_label">select media</label>
+            <input type="file"id="post_media" hidden>
+            <textarea id="post_message" width="100%"></textarea>
+            <button id="Post_post">post</button>
+            <button id="Post_back">back</button>
+        </form>
+    </div>
+</body>
+<script src="./style/script.js"></script>
+</html>
