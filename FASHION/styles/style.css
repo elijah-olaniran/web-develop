@@ -1,0 +1,20 @@
+* {
+    padding: 3;
+    margin: auto;
+}
+
+body {
+    background-color:#28434A;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-size: 25px;
+    color:
+    text-align: center;
+    position: relative;
+}
+object{
+    color: beige;
+    background-color: beige;
+    fil:beige;
+}
